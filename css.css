@@ -1,12 +1,13 @@
 body{
     background-color: black;
-    color: rgb(231, 231, 231);
+    color: rgb(146, 28, 28);
     /* 드래그방지 */
     -ms-user-select: none; 
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+    font-family: 'HSGyeoulNoonkott20';
 }
 
 button:focus{
@@ -33,4 +34,6 @@ button:focus{
 
 .base{
     font-family: 'HSGyeoulNoonkott20';
+    margin-top: 60px;
+    text-align: center;
 }
