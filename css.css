@@ -1,3 +1,36 @@
 body{
     background-color: black;
+    color: rgb(231, 231, 231);
+    /* 드래그방지 */
+    -ms-user-select: none; 
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button:focus{
+    outline: 0;
+}
+
+@font-face {
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+ .SG{
+ font-family: "GangwonEduSaeeum_OTFMediumA";
+ }
+
+ @font-face {
+    font-family: 'HSGyeoulNoonkott20';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HSGyeoulNoonkott20.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.base{
+    font-family: 'HSGyeoulNoonkott20';
 }
